@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <article data-testid="test-profile-card" class="profile-card">
+        <header class="profile-header">
+          <img
+            src="profile.jpg"
+            alt="Profile photo of Chimgozirim Udo"
+            data-testid="test-user-avatar"
+            class="avatar"
+          />
+          <h1 data-testid="test-user-name">Chimgozirim Udo</h1>
+          <p data-testid="test-user-bio">
+            A creative techie passionate about web design, accessibility, and
+            modern front-end development.
+          </p>
+          <p data-testid="test-user-time" class="time"></p>
+        </header>
+
+        <section class="social-section">
+          <h2>🔗Connect with me</h2>
+          <ul data-testid="test-user-social-links" class="social-links">
+            <li>
+              <a
+                href="https://x.com/Chimgoziri46539?s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-twitter"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/chimgozirimudo"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/share/1MhXtC8FFm/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-Facebook"
+              >
+                Facebook
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="lists">
+          <div class="list-block">
+            <h2>🎯Hobbies</h2>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Photography</li>
+              <li>Listening To Music</li>
+            </ul>
+          </div>
+
+          <div class="list-block">
+            <h2>🚫Dislikes</h2>
+            <ul data-testid="test-user-dislikes">
+              <li>Slow Wi-Fi</li>
+              <li>Cluttered UI</li>
+              <li>Unresponsive layouts</li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
