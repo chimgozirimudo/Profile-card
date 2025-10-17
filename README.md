@@ -61,7 +61,7 @@ cd Profile-card
 🧩 Project Structure
 
 Profile-card/
-│
+|
 ├── index.html        # Main HTML file
 ├── styles.css        # Styling (responsive & accessible)
 ├── script.js         # Handles live time update
@@ -74,4 +74,25 @@ Profile-card/
 
 Chimgozirim Udo
 💼 GitHub: chimgozirimudo
+
+
+TESTING NOTES
+
+All visible elements include data-testid attributes for automation:
+
+test-profile-card
+
+test-user-name
+
+test-user-bio
+
+test-user-time
+
+test-user-avatar
+
+test-user-social-links
+
+test-user-hobbies
+
+test-user-dislikes
 
