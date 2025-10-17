@@ -9,14 +9,14 @@ It includes a live time display, social links, hobbies, and dislikes, with all e
 
 🚀 Live Demo
 
-🔗 View Live on GitHub Pages
+🔗 https://chimgozirimudo.github.io/Profile-card/
 
 
 
 
 📂 Repository
 
-🔗 GitHub Repository
+🔗 https://github.com/chimgozirimudo?tab=repositories
 
 
 
